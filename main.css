@@ -4,17 +4,11 @@
 	
       @font-face {font-family: "Mercury"; src: url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.eot"); src: url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.woff") format("woff"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.svg#Mercury Text G3") format("svg"); }
 
-      @font-face {font-family: "Sebastian"; src: url("https://db.onlinewebfonts.com/t/9f72a670ce584e4c997df3efbdcf891b.eot"); src: url("https://db.onlinewebfonts.com/t/9f72a670ce584e4c997df3efbdcf891b.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/9f72a670ce584e4c997df3efbdcf891b.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/9f72a670ce584e4c997df3efbdcf891b.woff") format("woff"), url("https://db.onlinewebfonts.com/t/9f72a670ce584e4c997df3efbdcf891b.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/9f72a670ce584e4c997df3efbdcf891b.svg#Sebastian Text Pro") format("svg"); }
-		
       @font-face {font-family: "Mercury Italic"; src: url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.eot"); src: url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.woff") format("woff"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.svg#Mercury Text G3") format("svg"); }
 		
      @font-face {font-family: "Lercury Italic"; src: url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.eot"); src: url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.woff") format("woff"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.svg#Mercury Text G1") format("svg"); }
 		
       @font-face {font-family: "Lercury"; src: url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.eot"); src: url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.woff") format("woff"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.svg#Mercury Text G2") format("svg"); }
-
-      @font-face {font-family: "Lebastian"; src: url("https://db.onlinewebfonts.com/t/7ec13146e69ed1eb2e8dd6dcaf06d4b8.eot"); src: url("https://db.onlinewebfonts.com/t/7ec13146e69ed1eb2e8dd6dcaf06d4b8.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/7ec13146e69ed1eb2e8dd6dcaf06d4b8.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/7ec13146e69ed1eb2e8dd6dcaf06d4b8.woff") format("woff"), url("https://db.onlinewebfonts.com/t/7ec13146e69ed1eb2e8dd6dcaf06d4b8.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/7ec13146e69ed1eb2e8dd6dcaf06d4b8.svg#Sebastian Light Pro") format("svg"); }
-
-		@font-face {font-family: "Univers"; src: url("https://db.onlinewebfonts.com/t/5889988ce11f26fe80f398c6ae00c45b.eot"); src: url("https://db.onlinewebfonts.com/t/5889988ce11f26fe80f398c6ae00c45b.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/5889988ce11f26fe80f398c6ae00c45b.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/5889988ce11f26fe80f398c6ae00c45b.woff") format("woff"), url("https://db.onlinewebfonts.com/t/5889988ce11f26fe80f398c6ae00c45b.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/5889988ce11f26fe80f398c6ae00c45b.svg#Univers Next Arabic") format("svg"); }
 		
 a{text-decoration: none;
 color: inherit;}
@@ -23,11 +17,11 @@ color: inherit;}
 	font-family: Lercury; 
 	font-size: 16px;
 	color: #000000;
-	line-height: 16px;
+	line-height: 12px;
 	background-color: #ffffff;
 	width: 160px;
 	padding: 15px;
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-right: 10px;
 	margin-left: 20px;
 	margin-top: 70px;
@@ -52,18 +46,21 @@ color: inherit;}
 	font-family: Lercury;
 }	
 .name{
-	font-family: Univers; 
+	font-family: benton-sans, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	
 	font-size: 34px;
 	letter-spacing: 0.5px;
 	color: #000000;
 	
 	background-color: #ffffff;
 	width: 270px;
-	height: 45px;
+	height: 40px;
 	padding-left: 12px;
-	padding-top: 0px;
+	padding-top: 8px;
 	padding-right: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 18px;
 	margin-left: 20px;
 	border-radius: 22px;
 	border-bottom-left-radius: 0px;
@@ -83,26 +80,18 @@ color: inherit;}
 .body{
 	font-family: Mercury; 
 	font-size:16px;
+	line-height: 20px;
 
 }
 .bodyL{
 	font-family: Lercury; 
 	font-size:16px;
 	color: #ffffff;
+	line-height: 20px;
 
 }
 
 
 .row {
   display: flex;
-}
-
-.column4 {
-  flex: 25%;
-  padding: 8px;
-}
-
-.column2 {
-	flex: 50%;
-	padding:8px;
 }
