@@ -1,97 +1,254 @@
 @charset "utf-8";
 /* CSS Document */
 
-	
-      @font-face {font-family: "Mercury"; src: url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.eot"); src: url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.woff") format("woff"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/cec1a89851932b3239acb7c7e7e858b0.svg#Mercury Text G3") format("svg"); }
-
-      @font-face {font-family: "Mercury Italic"; src: url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.eot"); src: url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.woff") format("woff"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/b677dde3096bc5022f0f58d8b79ad9d8.svg#Mercury Text G3") format("svg"); }
-		
-     @font-face {font-family: "Lercury Italic"; src: url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.eot"); src: url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.woff") format("woff"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/fa1eca189e7cf323c9e68fd973de8b45.svg#Mercury Text G1") format("svg"); }
-		
-      @font-face {font-family: "Lercury"; src: url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.eot"); src: url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.woff") format("woff"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/d069dd7173cba9a50a0b87aa71eac8b7.svg#Mercury Text G2") format("svg"); }
-		
-a{text-decoration: none;
-color: inherit;}
-	
-.nav{
-	font-family: Lercury; 
-	font-size: 16px;
-	color: #000000;
-	line-height: 12px;
-	background-color: #ffffff;
-	width: 160px;
-	padding: 15px;
-	padding-top: 30px;
-	padding-right: 10px;
-	margin-left: 20px;
-	margin-top: 70px;
-	border-bottom-left-radius: 22px;
-	border-bottom-right-radius: 0px;
-	position:fixed;
-	z-index: -10;
-
-
-}
-.entry:hover{
-	font-family: Lercury Italic;
-	font-size: 16.05px;
-	letter-spacing: 0.25px;
-}
-.current{
-	font-family: Lercury Italic;
-	font-size: 16.05px;
-	letter-spacing: 0.25px;
-}
-.entry{
-	font-family: Lercury;
-}	
-.name{
-	font-family: benton-sans, sans-serif;
-	font-weight: 600;
-	font-style: normal;
-	
-	font-size: 34px;
-	letter-spacing: 0.5px;
-	color: #000000;
-	
-	background-color: #ffffff;
-	width: 270px;
-	height: 40px;
-	padding-left: 12px;
-	padding-top: 8px;
-	padding-right: 10px;
-	padding-bottom: 18px;
-	margin-left: 20px;
-	border-radius: 22px;
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 22px;
-	position: fixed;
-
-}
-.main{
-
-	margin-left: 220px;
-	margin-right: 40px;
-	z-index: -200;
-
-
-	
-}
-.body{
-	font-family: Mercury; 
-	font-size:16px;
-	line-height: 20px;
-
-}
-.bodyL{
-	font-family: Lercury; 
-	font-size:16px;
-	color: #ffffff;
-	line-height: 20px;
-
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG4Roman.eot");
+  src: url("fonts/Mercury-TextG4Roman.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mercury-TextG4Roman.woff2") format("woff2"),
+    url("fonts/Mercury-TextG4Roman.woff") format("woff"),
+    url("fonts/Mercury-TextG4Roman.ttf") format("truetype"),
+    url("fonts/Mercury-TextG4Roman.svg#Mercury-TextG4Roman") format("svg");
+  font-weight: 400;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG3Roman.eot");
+  src: url("fonts/Mercury-TextG3Roman.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mercury-TextG3Roman.woff2") format("woff2"),
+    url("fonts/Mercury-TextG3Roman.woff") format("woff"),
+    url("fonts/Mercury-TextG3Roman.ttf") format("truetype"),
+    url("fonts/Mercury-TextG3Roman.svg#Mercury-TextG3Roman") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG1Roman.eot");
+  src: url("fonts/Mercury-TextG1Roman.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mercury-TextG1Roman.woff2") format("woff2"),
+    url("fonts/Mercury-TextG1Roman.woff") format("woff"),
+    url("fonts/Mercury-TextG1Roman.ttf") format("truetype"),
+    url("fonts/Mercury-TextG1Roman.svg#Mercury-TextG1Roman") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG2Roman.eot");
+  src: url("fonts/Mercury-TextG2Roman.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mercury-TextG2Roman.woff2") format("woff2"),
+    url("fonts/Mercury-TextG2Roman.woff") format("woff"),
+    url("fonts/Mercury-TextG2Roman.ttf") format("truetype"),
+    url("fonts/Mercury-TextG2Roman.svg#Mercury-TextG2Roman") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MercuryD";
+  src: url("fonts/Mercury-DisplaySemibold.eot");
+  src: url("fonts/Mercury-DisplaySemibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Mercury-DisplaySemibold.woff2") format("woff2"),
+    url("fonts/Mercury-DisplaySemibold.woff") format("woff"),
+    url("fonts/Mercury-DisplaySemibold.ttf") format("truetype"),
+    url("fonts/Mercury-DisplaySemibold.svg#Mercury-DisplaySemibold")
+      format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MercuryD";
+  src: url("fonts/Mercury-DisplayRoman.eot");
+  src: url("fonts/Mercury-DisplayRoman.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mercury-DisplayRoman.woff2") format("woff2"),
+    url("fonts/Mercury-DisplayRoman.woff") format("woff"),
+    url("fonts/Mercury-DisplayRoman.ttf") format("truetype"),
+    url("fonts/Mercury-DisplayRoman.svg#Mercury-DisplayRoman") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MercuryB";
+  src: url("fonts/Mercury-TextG2Semibold.eot");
+  src: url("fonts/Mercury-TextG2Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Mercury-TextG2Semibold.woff2") format("woff2"),
+    url("fonts/Mercury-TextG2Semibold.woff") format("woff"),
+    url("fonts/Mercury-TextG2Semibold.ttf") format("truetype"),
+    url("fonts/Mercury-TextG2Semibold.svg#Mercury-TextG2Semibold") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MercuryB";
+  src: url("fonts/Mercury-TextG1Semibold.eot");
+  src: url("fonts/Mercury-TextG1Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Mercury-TextG1Semibold.woff2") format("woff2"),
+    url("fonts/Mercury-TextG1Semibold.woff") format("woff"),
+    url("fonts/Mercury-TextG1Semibold.ttf") format("truetype"),
+    url("fonts/Mercury-TextG1Semibold.svg#Mercury-TextG1Semibold") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MercuryB";
+  src: url("fonts/Mercury-TextG3Semibold.eot");
+  src: url("fonts/Mercury-TextG3Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Mercury-TextG3Semibold.woff2") format("woff2"),
+    url("fonts/Mercury-TextG3Semibold.woff") format("woff"),
+    url("fonts/Mercury-TextG3Semibold.ttf") format("truetype"),
+    url("fonts/Mercury-TextG3Semibold.svg#Mercury-TextG3Semibold") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.name {
+  font-family: benton-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+  font-size: 34px;
+  letter-spacing: 0.5px;
+  color: #000000;
+
+  /*background-color: #ffffff;*/
+  width: 270px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 18px;
+  margin-left: 20px;
+  border-radius: 22px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 22px;
+  position: fixed;
+}
+
+.nav {
+  font-family: Mercury;
+  font-weight: 100;
+  font-size: 16px;
+  color: #000000;
+  line-height: 12px;
+  /*background-color: #ffffff;*/
+  width: 200px;
+  padding: 15px;
+  padding-top: 30px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-top: 85px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 0px;
+  position: fixed;
+  z-index: -10;
+}
+
+.entry {
+  font-family: Mercury;
+  font-weight: 100;
+}
+.entry2 {
+  font-family: Mercury;
+  font-weight: 400;
+}
+.entry:hover {
+  font-family: MercuryB;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.entry2:hover {
+  font-family: MercuryB;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.current {
+  font-family: MercuryB;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.current2 {
+  font-family: MercuryB;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+
+.main {
+  margin-left: 220px;
+  margin-right: 40px;
+  z-index: -200;
+}
+.body {
+  font-family: Mercury;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bodyL {
+  font-family: Mercury;
+  font-weight: 100;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 20px;
+}
 
 .row {
   display: flex;
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: #dddddd;
+  }
+  20% {
+    background-color: #dddddd;
+  }
+  40% {
+    background-color: #ffd0d0;
+  }
+  50% {
+    background-color: #ffffd0;
+  }
+  60% {
+    background-color: #d0ffd0;
+  }
+  70% {
+    background-color: #d0ffff;
+  }
+  80% {
+    background-color: #d0d0ff;
+  }
+  90% {
+    background-color: #ffd0ff;
+  }
+  100% {
+    background-color: #dddddd;
+  }
+}
+.changecolor {
+  animation-name: changecolor;
+  animation-play-state: running;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
 }
